@@ -138,3 +138,139 @@ Are special classes possessed by the links:
 * *[attribute^="value"]* Select all elements with an attribute value that starts with specific characters.
 * *[attribute$="value"]* Select all elements with an attribute value that ends with specific characters.
 * *[attribute*="value"]* Select all elements with an attribute value that contains specific characters anywhere. A useful selector if you can identify a common pattern in things like class, href or src attributes.
+
+### July 4th
+
+SCRUM: https://www.scrum.org/resources/what-is-a-sprint-in-scrum
+Minimum Viable Product (MVP)
+
+#### CSS Floats
+
+Blocks are the base concept for positioning. There are vertical and horizontal floats. floating elements doesn't have a height.
+full-bleed = full-width
+
+*overflow:* when a contents surpasses its container, we need to use this properties which forces an element to have height.
+* To know more visit: https://developer.mozilla.org/es/docs/Web/CSS/overflow
+
+Containers are a good practice in order to locate the elements within the space.
+
+**Media object:** It's a component (Avatar, name and text) used to describe conversations.  
+
+* *CSS comb:* good styling practices: http://csscomb.com/
+webtask slash
+
+A variable is a box, it has a name and stores different vaues. This can change according to different languagues. Variables can be natives and
+
+Javascript is not strongly typed, which means it has no classes.
+
+Algorithms are instructions, in this case, given to machines in order to return something. A text string needs to be wrapped inside "".
+
+Constants cannot be declared more than once.
+**Variables cannot be defined by numbers and are case sensitive: *MyCar is not the same as myCar*.**
+
+* List variables are openned with [ ].
+* Positions can be listed by introducing a number between [ ].
+*  Objects are defines between { }, and have properties and values. Objects + . access to a property.
+* Properties and objects can be overwritten.
+
+#### Functions:
+They recive inputs in order to return outputs, accoding to parameters previously declared.
+* ** *NaN* ** Not a number.
+
+### July 5th
+Javascript is not interpreted but compiled.
+
+=== (strict value) Compares value and type.
+a defined value is true.
+
+>= (>= or <=) doesn't care about values.
+
+**Scopes:** variables exist only within its containers.
+Constants values cannot be reasigned. Its content can be updated
+Empty strings, 0, -0, void elemets, null and undefined are false.
+
+Closure are functions that "returned" another function with predefined values.
+
+* Callbacks execute after another object.
+* Anonymous function don't have a name.
+
+### July 6th
+
+to immediately invocate a function, add () at the end of the function and wrapp it between ().
+* to know more visit: http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+
+**This** is used to named a previous.
+* To know more about this visit: https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/this
+
+Global context in a browser is the window object
+Paramters are linked with ,
+* *call* allow you to call a function.
+* *Apply* retrieve parameters included in an array.
+* *Callback* is a parameter that
+
+### July 7th
+
+* Window is a global context.
+* This and variables only have sense within it's context.
+* Call invocates another function with a certain context.
+* A *method* is a object with a function.
+
+#### Semantic HTML
+Refers to the meaning of HTML contents instead of its content.
+
+The document outline refers to the structure of importance in an HTML document.
+* To evaluate it we can use: https://gsnedders.html5.org/outliner/
+
+--Articles contain related content.--
+It's preferable to use article instead of section.
+Every navigation elements should be contained inside the **nav** tag.
+* To know more visit: http://html5doctor.com/
+
+**Headers** can work as a section, however they are the most important.
+**Footers** can be used inside an article or a the end of a page.
+**Asides** were mainly used to introduce content unrelated to the site, and can be used as sidebars.
+
+* Is important to tell the date and time to the bots, to do that we use dat tag. Remember to introduce hour, time and time zone.ISO 8601
+
+* Figures and captions: is important to add this information for SEO purposes.
+
+### July 8th
+#### Forms
+This tag has specil attributes; **action** is where data are received and **method**.
+
+* *Inputs*, usually needs labels. Has a propoerty named for to associate it with its corresponding ID. Have pseudo selecor as well.
+
+** *Mobile first: think first in designing for mobile devices.* **  
+
+@media Are applied only to specific screen measures.
+
+> "Having the best tools doesn't mean you can get the best results" Guillermo Rodas.
+
+Radio botton is used to select one element, while chechbox is ised to offer multiple selection posibilities to the user.
+
+**Dropdowns** are made with the tag *option*, nested inside the *select* or  *datalist* tag. Datalist is not supported for all the browsers.
+
+Textarea doesn't suppot the value attribute, unlike others tags whent its uses to provide a default  value.
+
+*Max-length* Defines a maximun value for the characters.
+
+Regex html: http://html5pattern.com/Phones
+
+* Submitt, are made with buttons or inputs.
+* *Novalidate*: http://1000hz.github.io/bootstrap-validator/
+
+module.export = function (ctx,cb) {
+  cb(null, ctx.data});
+};
+
+ID and Name must be the same, and though is not required with ajax is a good practice to implement it.
+
+
+### July 10th
+#### Contact forms
+
+
+
+* Media print is used to style a page to be printed.
+* Use vim to open a file.
+* When we are working on *git* we need to pull first in order to push my repository.
